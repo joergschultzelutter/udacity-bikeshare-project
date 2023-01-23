@@ -191,9 +191,9 @@ def load_my_file(city: str):
     # Check if the input file exists
     if not check_if_file_exists(target_filename):
         # file is missing; output error message, check if the user wants to continue and re-initiate loop
-        print(
-            f"File '{target_filename}' not found; please check your local project installation"
-        )
+        # fmt:off
+        print(f"File '{target_filename}' not found; please check your local project installation")
+        # fmt:on
         return None
     else:
         logger.debug(msg="Importing file")
