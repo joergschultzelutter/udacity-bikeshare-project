@@ -1,3 +1,4 @@
+# Udacity "Programming with Python for Data Science" project file
 # code format: black
 
 import pandas as pd
@@ -7,6 +8,7 @@ import logging
 import time
 import sys
 
+__version__="1.0.0"
 
 logging.basicConfig(
     level=logging.INFO, format="%(asctime)s %(module)s -%(levelname)s- %(message)s"
@@ -189,9 +191,9 @@ def load_my_file(city: str):
     # Check if the input file exists
     if not check_if_file_exists(target_filename):
         # file is missing; output error message, check if the user wants to continue and re-initiate loop
-        print(
-            f"File '{target_filename}' not found; please check your local project installation"
-        )
+        # fmt:off
+        print(f"File '{target_filename}' not found; please check your local project installation")
+        # fmt:on
         return None
     else:
         logger.debug(msg="Importing file")
