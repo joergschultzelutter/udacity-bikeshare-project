@@ -18,4 +18,5 @@ External sites used for this project:
 - [pandas documentation](pandas.pydata.org)
 - [Udacity project files](https://video.udacity-data.com/topher/2018/August/5b7b7aca_bikeshare-2/bikeshare-2.zip)
 
-
+### Dependencies
+See [requirements.txt](https://github.com/joergschultzelutter/udacity-bikeshare-project/blob/master/requirements.txt)
