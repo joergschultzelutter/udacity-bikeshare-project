@@ -8,6 +8,7 @@ import logging
 import time
 import sys
 
+__version__="1.0.0"
 
 logging.basicConfig(
     level=logging.INFO, format="%(asctime)s %(module)s -%(levelname)s- %(message)s"
